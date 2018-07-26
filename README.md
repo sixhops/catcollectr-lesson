@@ -90,7 +90,7 @@
 
 	```python
 	# main_app/urls.py
-	from django.conf.urls import path
+	from django.urls import path
 	from . import views
 
 	urlpatterns = [
